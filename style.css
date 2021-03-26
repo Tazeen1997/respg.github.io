@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #486438;
+    text-transform: uppercase;
+    
+}
+.logo{
+    height: 90px;
+    padding: 2px 5px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.icon-bar{
+    background: rgb(45, 67, 165);
+}
+
+li a {
+    color:rgb(12, 12, 65);
+}
+
+.big-text{
+    font-size: 58px;
+    margin: 20px 0;
+    color: coral;
+}
+
+a.btn-first{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: coral;
+    color: #fff;
+}
+a.btn-second{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid coral;
+    color: #333;
+}
+a.btn-second:hover{
+    background: coral;
+    border: black;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.9s;
+}
+
+.banner-info{
+    margin: 30px;
+}
